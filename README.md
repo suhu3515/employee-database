@@ -5,7 +5,7 @@ This guide will walk you through the steps required to set up and run the projec
 ## Setup Instructions
 
 1. **Download this repository:** 
-    - Clone or download the repository from [GitHub](https://github.com/suhu3515/document-center).
+    - Clone or download the repository from [GitHub](https://github.com/suhu3515/employee-database).
 
 2. **Install Dependencies:** 
     - Run the following command in your terminal:
@@ -29,24 +29,18 @@ This guide will walk you through the steps required to set up and run the projec
       php artisan db:seed
       ```
 
-6. **Link Storage:**
-    - Execute:
-      ```
-      php artisan storage:link
-      ```
-
-7. **Run the Project:**
+6. **Run the Project:**
     - Start the server by running:
       ```
       php artisan serve
       ```
 
-8. **Login Credentials:**
+7. **Login Credentials:**
     - Username: `admin@gmail.com`
     - Password: `password`
     
-9. **Keep Uploading Data:**
-    - Access the document center and keep uploading data as required.
+9. **Add Employee Details:**
+    - Access the Employee details and keep updating data as required.
 
 ## Improvements to Make
 
@@ -58,6 +52,3 @@ This guide will walk you through the steps required to set up and run the projec
 
 3. **Add Minimum Date for Date Input:**
     - Implement a minimum date for date inputs to ensure data consistency.
-
-4. **Add JavaScript Validation for File Uploads:**
-    - Enhance file upload validation by adding JavaScript validation in addition to server-side validation.
